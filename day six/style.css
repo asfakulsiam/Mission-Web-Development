@@ -1,0 +1,255 @@
+.header{
+    width: 1200px;
+    height: 100px;
+    background: aqua;
+    margin: 0 auto;
+}
+.logo1{
+    padding: 20px;
+    float: left;
+}
+.logo1 img{
+    width: 60%;
+    height: 60%;
+}
+.menu{
+    float: right;
+    padding-top: 25px;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    padding-right: 17px;
+}
+.menu ul li a:hover{
+    background: rgb(83, 223, 241);
+    border-radius: 7px;
+    padding: 8px;
+    color: rgb(23, 14, 146);
+}
+/* header finish */
+/* start slider */
+.slider{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.6)), url(./images/banner.png);
+    background-repeat: no-repeat;
+    background-size: full;
+    background-position: center;
+}
+.slider h1{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    color: white;
+}
+.slider p{
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    color: white;
+}
+.slider a{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    text-decoration: none;
+    color: rgb(245, 246, 247);
+    border-radius: 7px;
+    width: 74px;
+    padding-left: 5px;
+    font-size: 15px;
+}
+.slider a:hover{
+    background: rgba(7, 35, 85, 0.548);
+    border-radius: 7px;
+    padding: 8px;
+    color: rgb(234, 233, 241);
+}
+/* slider part end */
+/* services part start */
+.services{
+   width: 1200px; 
+   margin: 0 auto;
+}
+.servicestitle{
+    text-align: center;
+    margin: 10px auto;
+
+}
+.servicestitle h2 span{
+    color: red;
+}
+/* services part end */
+.servicesbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+.box{
+    text-align: center;
+    background: rgb(0, 0, 0);
+   
+}
+.box img{
+    width: 20%;
+    height: 20%;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 15px auto;
+}
+.box h3{
+    margin: 1px auto;
+    color: white;
+}
+.box p{
+    color: white;
+}
+.box a{
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 5px 5px;
+    background: transparent;
+    color: white;
+}
+.box a:hover{
+    border-radius: 7px;
+    color: white;
+    border: 1px solid red;
+}
+/* .animate{
+    animation: 7s  mov linear infinite;
+    position: relative;
+}
+@keyframes mov{
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+    /* 0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;} */
+    /* from{background-color: rgb(5, 5, 5);}
+    to{background-color: rgb(77, 77, 167);} 
+} */
+
+/* footer part start */
+footer{
+    width: 1200px;
+    margin: 0 auto;
+}
+.fottormain{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px,auto));
+    gap: 10px;
+    
+}
+.fottorbox{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px,auto));
+    gap: .3%;
+    background-color: aqua;
+}
+.fottorbox a{
+    text-decoration: none;
+    position: relative;
+    left: 20%;
+
+    
+}
+.fottorbox a:hover{
+    
+}
+
+.fottorbox h3{
+    text-align: center;
+    font-weight: 500px;
+    font-size: 20px;
+}
+.fottorbox img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+    padding-right: 10px;
+}
+.fottorbottom{
+    width: 1200px;
+    height: 150;
+    background-color: black;  
+    text-align: center;
+    
+}
+.fottorbottom h4{
+    color: white;
+}
+.fottorbox p{
+    text-align: center;
+    padding: 0 20px;
+}
+.learn{
+    padding-left: 8%;
+
+/* footeer part end */
+/* extra footer start */
+.extrafooter{
+    width: 1200px;
+    margin: 0 auto;
+}
+.extrafootermain{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minmax(33%,auto));
+    gap: .3%;
+}
+.extrafooterbox{
+    padding: 10px;
+    background-color: rgb(14, 13, 13);
+    display: grid;
+    grid-template-rows: repeat(autu-fit, minmax(18px, auto));
+    font-weight: 500px;
+}
+.extrafooterbox a{
+    text-decoration: none;
+    color: aqua;
+    position: relative;
+    left: 20%;
+
+}
+.extrafooterbox img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin: 7px;
+    top: 12px;
+}
+.extrafooterbox h3{
+    color: white;
+    font-weight: 500px;
+    font-size: 20px;
+    text-align: center;
+}
+.extrafooterbox pre{
+    color: white;
+    padding: 7px;
+}
+.extrafooterbox p{
+    color: white;
+
+    text-align: center;
+}
+.boox img{
+    border: 1px solid red;
+}
+/* extra footer end */

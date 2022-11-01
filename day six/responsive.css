@@ -1,0 +1,85 @@
+/* responsive part start */
+
+    .header{
+        width: 100%;
+        background: rgb(83, 223, 241);
+    }
+    .logo1{
+        padding: 25px 5px;
+        float: left;
+        width: 30%;
+    }
+    .logo1 img{
+        width: 100%;
+        height: 100%;
+    }
+    .menu{
+        float: right;
+       
+    }
+    .menu ul{
+        list-style: none;
+    }
+    .menu ul li{
+        display: inline-block;
+    }
+    .menu ul li a{
+        text-decoration: none;
+        font-size: 15px;
+        padding-right: 8px;
+    }
+    .menu ul li a:hover{
+        background: rgba(21, 80, 189, 0.747);
+        border-radius: 7px;
+        padding: 8px;
+        color: rgb(234, 233, 241);
+    }
+    /* header finish */
+
+    /* start slider */
+.slider{
+    width: 100%;
+    height: 600px;
+}
+.slider h1{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    color: rgb(83, 223, 241);
+}
+.slider p{
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    color: rgb(83, 223, 241);
+    font-size: 14px;
+}
+.slider a{
+    top: 60%;
+    left: 15%;
+    text-decoration: none;  
+}
+.slider a:hover{
+    background: rgba(7, 35, 85, 0.548);
+    border-radius: 7px;
+    padding: 8px;
+    color: rgb(234, 233, 241);
+}
+/* slider part end */
+
+
+/* responsive part end */
+/* services part start */
+.services{
+    width: 100%; 
+    margin: 0 auto;
+ }
+ .servicestitle{
+     text-align: center;
+     margin: 10px auto;
+ }
+ .servicestitle h2 span{
+     color: red;
+ }
+ /* services part end */
+ 
