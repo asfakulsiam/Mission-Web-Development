@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./assets/image/bg/bg_main.gif) center;
+}
+.container{
+   max-width: 1020px;
+   background: #9E5BBA;
+   margin: 0 auto;
+   padding: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   color: white;
+   height: 28px;
+   font-size: 12px;
+}
+.right p{
+    display: inline-block;
+    padding-right: 10px;
+    border-right: 1px solid white; 
+}
+.right a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+/* .container p{
+    display: inline-block;
+    width: 220px;
+    height: 20px;
+}
+.container a{
+
+} */
